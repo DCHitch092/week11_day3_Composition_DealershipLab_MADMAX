@@ -1,6 +1,6 @@
-import java.lang.reflect.Array;
+import vehicles.Vehicle;
+
 import java.util.ArrayList;
-import java.util.Collection;
 
 public class Hoardership {
 

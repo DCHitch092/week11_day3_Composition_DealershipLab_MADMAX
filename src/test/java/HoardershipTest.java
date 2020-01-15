@@ -1,5 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
+import types.CamoType;
+import vehicles.Transport;
+import vehicles.Vehicle;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +14,7 @@ public class HoardershipTest {
     @Before
     public void before(){
         hoardership = new Hoardership(10000, "The Citadel");
-        vehicle = new Vehicle();
+        vehicle = new Transport("The Doof Wagon", CamoType.DESERT, 11, 100, 80, 1000);
     }
 
     @Test
