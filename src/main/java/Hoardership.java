@@ -15,7 +15,7 @@ public class Hoardership {
     }
 
     public ArrayList<Vehicle> getStock() {
-        return theHoard;
+        return new ArrayList<Vehicle>(theHoard);
     }
 
     public void addStock(Vehicle vehicle) {

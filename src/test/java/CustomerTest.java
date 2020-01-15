@@ -26,7 +26,7 @@ public class CustomerTest {
 
     @Test
     public void hasLoot(){
-        assertEquals(25, customer.getLoot());
+        assertEquals(25, customer.getLoot(), 0.01);
     }
 
     @Test
