@@ -10,7 +10,7 @@ public class HoardershipTest {
 
     @Before
     public void before(){
-        hoardership = new Hoardership("The Citadel");
+        hoardership = new Hoardership(10000, "The Citadel");
         vehicle = new Vehicle();
     }
 
